@@ -66,3 +66,23 @@ button {
   font-family: "Roboto";
   all: unset;
 }
+
+header {
+  min-height: 53.2rem;
+  background-color: #f8f8ff;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-content: center;
+}
+
+header::before {
+  content: "";
+  background-image: url(./assets/bg-header-top.svg);
+  width: 40.7rem;
+  height: 34.5rem;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
