@@ -203,3 +203,17 @@ section.cards {
   gap: 3.2rem;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.card {
+  background: #ffffff;
+  border: 0.1rem solid #eaeaea;
+  border-radius: 1rem;
+  max-width: 38.4rem;
+  overflow: hidden;
+}
+
+.card .content {
+  display: grid;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
