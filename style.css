@@ -217,3 +217,31 @@ section.cards {
   gap: 1.6rem;
   padding: 1.6rem;
 }
+
+.card h3 {
+  color: #121214;
+  font-size: 2rem;
+  line-height: 140%;
+}
+
+.card p {
+  opacity: 0.75;
+}
+
+.card .location {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  opacity: 0.75;
+}
+
+.location i {
+  color: #e45858;
+  font-size: 2.4rem;
+  opacity: 1;
+}
+
+/* responsivo - milha extra */
+main {
+  padding-inline: 4rem;
+}
