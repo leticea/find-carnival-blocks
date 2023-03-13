@@ -86,3 +86,23 @@ header::before {
   top: 0;
   left: 0;
 }
+
+header::after {
+  content: "";
+  background-image: url(./assets/bg-header-bottom.svg);
+  width: 41.4rem;
+  height: 33rem;
+  position: absolute;
+  right: 0;
+  bottom: -1.2rem;
+}
+
+header .content {
+  width: fit-content;
+  position: relative;
+  z-index: 1;
+}
+
+header .content .top {
+  text-align: center;
+}
