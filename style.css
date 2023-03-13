@@ -165,3 +165,20 @@ select,
 select {
   z-index: 1;
 }
+
+.select i.ph-caret-down-light {
+  position: absolute;
+  right: 1rem;
+  z-index: 0;
+  color: #858793;
+}
+
+form button.btn {
+  padding: 1.2rem 3.2rem;
+}
+
+main > .content {
+  max-width: 121.6rem;
+  margin: 10rem auto;
+  border: 1px solid red;
+}
