@@ -55,3 +55,14 @@
   background-color: #6246ea;
   color: white;
 }
+
+body {
+  font-size: 1.6rem;
+}
+
+input,
+select,
+button {
+  font-family: "Roboto";
+  all: unset;
+}
